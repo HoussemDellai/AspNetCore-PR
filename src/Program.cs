@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
+
+
 namespace src
 {
     public class Program
@@ -15,6 +17,8 @@ namespace src
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
+            
+            
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
