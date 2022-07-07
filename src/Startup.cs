@@ -50,6 +50,9 @@ namespace src
                 app.UseHsts();
             }
 
+            
+            
+            
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
